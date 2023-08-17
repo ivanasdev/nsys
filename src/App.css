@@ -1,0 +1,248 @@
+.App {
+  text-align: center;
+}
+
+.navbar{
+  background: rgba(249, 235, 199, 0.717);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("./assets/img/fondo4.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*CARDS*/
+.cardhome1{
+  background: rgba(249, 235, 199, 0.717);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+margin: 20px;
+
+}
+.cardhome{
+  background: rgba(249, 235, 199, 0.717);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+margin: 20px;
+
+}
+.cardhomefirst{
+  background: rgba(234, 238, 240, 0);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+.cardharrys{
+  background: rgba(249, 235, 199, 0.717);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+margin: 30px;
+margin: 20px;
+
+}
+/*Botones*/
+
+
+.btnhomenutriologo{
+  margin-top: 210px;
+  background-color: rgba(12, 123, 221, 0.566);
+  height: 150px;
+  width: 250px;
+  color: #fff  ;
+  font-size: 30px;
+  border-radius: 18px;
+}
+.btnhomenutriologo:hover{
+  margin-top: 210px;
+  background-color: rgba(12, 123, 221, 0.196);
+  height: 150px;
+  width: 250px;
+  color: #fff  ;
+  font-size: 30px;
+  border-radius: 18px;
+}
+
+.btnhome{
+  background-color: rgba(121, 211, 12, 0.499);
+  margin-top: 100px;
+  margin-bottom: 200px;
+  height: 150px;
+  width: 250px;
+  color: #fff  ;
+  font-size: 30px;
+  border-radius: 18px;
+}
+.btnhome:hover{
+  background-color: rgba(121, 211, 12, 0.28);
+  margin-top: 100px;
+  margin-bottom: 200px;
+  height: 150px;
+  width: 250px;
+  color: #fff  ;
+  font-size: 30px;
+  border-radius: 18px;
+}
+.btnharrys{
+  background-color: rgba(198, 211, 12, 0.745);
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #d9fde0;
+
+}
+.btnlogin{
+  background-color: rgba(211, 98, 12, 0.745);
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #d9fde0;
+
+}
+
+.btn-menu{
+  height: 150px;
+  width: 150px;
+  background-color: rgba(249, 235, 199, 0.717);
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/*ICONS*/
+.icon1{
+  height: 200px;
+  width: 200px;
+
+}
+
+.iconmenucosulta{
+  height: 100px;
+  width: 100px;
+}
+.iconNav{
+  height: 100px;
+  width: 200px;
+}
+
+/*INPUTS*/
+
+  
+.inputform{
+  border-radius: 9px;
+  background: rgba(232, 175, 2, 0.642);
+  align-self: center;
+
+  padding-inline: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-width: 0;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px;
+  
+
+}
+.inputform:hover{
+  border-radius: 9px;
+  background: rgba(232, 175, 2, 0.642);
+  align-self: center;
+
+  padding-inline: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-width: 0;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px;
+  
+
+}
+
+.formjoin{
+  margin-top: 30px;
+  color: aliceblue;
+}
+
+
+
+/*TEXTOS*/
+
+.h22 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #5F6F52;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+.h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #5F6F52;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 1px;
+
+}
+.h3 {
+  font-size: 20px;
+  color: #5F6F52; 
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 1px;
+
+}
+.p22{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:#343466;
+
+
+}
+.htitle{
+
+  font-size: 20px;
+  color: #f7f7f7; 
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 10px;
+
+}
+.txtbtn{
+  font-size: 15px;
+  color: #5d8c37; 
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 1px;
+
+}
